@@ -107,7 +107,7 @@ Open **`flexi_p_scaling_and_eval_metrics.ipynb`**:
 
 ---
 
-## Stage 4 — Interpretability (TreeSHAP & grouped permutation)
+## Stage 4 — Interpretability Tests Demonstrated on Mom+BOCD Models (easily modifiable for other specifications)
 
 ### Script (GPU): `shap_mom_bocd_for_slurm.py`
 Runnable on a single machine or a SLURM array (`--window`/`SLURM_ARRAY_TASK_ID` to pick OOS window). It:
