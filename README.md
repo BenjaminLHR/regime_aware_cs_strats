@@ -13,7 +13,7 @@ At a high level, we engineer **online regime features** per stock using **Bayesi
 
 ```
 ├─ data_collection_and_feature_eng.ipynb        # Stage 1.1 — CRSP ingest + core features → base tables
-├─ generate_bocd_feats.py                        # Stage 1.2 — per‑stock BOCD features (CPU parallel; resumable)
+├─ generate_bocd_feats.py                        # Stage 1.2 — per‑stock BOCD features (Parallelized on CPU and resumable)
 ├─ load_bocd_features_into_ltr_df.ipynb          # Stage 1.3 — merge BOCD into learning table (ltr_df)
 ├─ xgb_model_trng.py                             # Stage 2   — train XGBoost (GPU recommended/used)
 ├─ flexi_p_scaling_and_eval_metrics.ipynb        # Stage 3   — portfolio, backtests, metrics
