@@ -20,7 +20,6 @@ At a high level, we engineer **online regime features** per stock using **Bayesi
 ├─ shap_mom_bocd_for_slurm.py                    # Stage 4   — SHAP + grouped permutation (GPU)
 ├─ shap_mom_bocd.ipynb                           # Stage 4   — SHAP analysis notebook
 ├─ slice_test_mom_bocd.ipynb                     # Stage 4   — slice tests (e.g., momentum×BOCD gates)
-└─ Benjamin_Lee_Dissertation.pdf                          # Dissertation manuscript
 ```
 
 > **CRSP data notice** — This project requires access to CRSP via your own institutional license. **No CRSP data—raw or processed—is distributed here.** See _Data & Licensing_ below before running notebooks.
